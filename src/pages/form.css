@@ -1,0 +1,89 @@
+
+
+.center-card {
+  display: flex;
+  flex-direction: column; /* Arrange child elements in a column */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Make the Card fill the entire viewport height */
+}
+
+.main {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  color: green;
+  
+}
+.content{
+  align-items: start;
+  display: flex;
+  justify-content: start;
+  height: 50%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.users{
+  margin-top: 3rem;
+  font-size: 25px;
+  margin-bottom: 10px;
+  display: block;
+  
+
+}
+
+.admin-panel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-list,
+.doctor-list {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.user-card,
+.doctor-card {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.one {
+  text-align: center;
+  margin-top: 200px;
+  width: 500px;
+  height: 200px;
+}
+
+.butt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 180px;
+  
+}.mainclasss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log {
+  position: absolute;
+  right:10px
+}
+.buttt {
+  float: right;
+}
